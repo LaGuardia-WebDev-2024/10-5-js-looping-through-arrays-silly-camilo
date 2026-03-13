@@ -15,6 +15,7 @@ setup = function() {
   var bestAnimals = ["leaf sheep", "zebra", "axolotl", "doggy", "CYBERCAT KAITO"];
   var y = 50;
   var neko = loadImage("https://i.pinimg.com/736x/ff/25/99/ff2599f5ac454a8382220af1f45f4941.jpg");
+  var leaf = loadImage("https://cdn.mos.cms.futurecdn.net/v2/t:0,l:350,cw:900,ch:900,q:80,w:900/kuvSVaHqFENaYVqubwuNaC.jpg");
 
   for(var displayAnimals = 0; displayAnimals < bestAnimals.length; displayAnimals++){
     fill(0, 0, 200);
@@ -24,6 +25,7 @@ setup = function() {
 
   draw = function(){
     image(neko, 160, 270, 100, 100);
+    image(leaf, 260, 60, 100, 100);
   }
 
   
